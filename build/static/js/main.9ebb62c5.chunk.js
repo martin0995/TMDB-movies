@@ -1,0 +1,2 @@
+(this["webpackJsonp26-tmdb"]=this["webpackJsonp26-tmdb"]||[]).push([[0],{4:function(e,t,n){"use strict";n.r(t);var c=n(0),s=n.n(c),i=n(3),o=n.n(i),r=(n(9),n(2));o.a.render(Object(r.jsx)(s.a.StrictMode,{children:Object(r.jsx)("h1",{children:"The Movie Database"})}),document.getElementById("root"))},9:function(e,t,n){}},[[4,1,2]]]);
+//# sourceMappingURL=main.9ebb62c5.chunk.js.map
