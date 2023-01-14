@@ -1,12 +1,11 @@
 import React from "react";
-import { useParams, useLocation } from "react-router";
+import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import { useAuthContext } from "../context/user";
 import axios from "axios";
 
 const Card = ({ movies, series }) => {
   const params = useParams().name; //Me tira el nombre de la pelicula/serie de la url
-  const location = useLocation().pathname.split("/")[1]; //Me tira si el path indica que es una movie o serie
   const { user } = useAuthContext();
 
   const urlToMovie = (str) => {
@@ -89,7 +88,7 @@ const Card = ({ movies, series }) => {
                             ? `https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${matchMovie[0].poster_path}`
                             : "https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg"
                         }
-                        alt="Placeholder image"
+                        alt="movie"
                       />
                     </figure>
                   </div>
@@ -156,7 +155,7 @@ const Card = ({ movies, series }) => {
                             ? `https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${matchSerie[0].poster_path}`
                             : "https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg"
                         }
-                        alt="Placeholder image"
+                        alt="movie"
                       />
                     </figure>
                   </div>

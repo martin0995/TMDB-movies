@@ -47,7 +47,7 @@ const MovieItem = ({ movie }) => {
                     ? `https://image.tmdb.org/t/p/w94_and_h141_bestv2/${movie.poster_path}`
                     : "https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg"
                 }
-                alt="Placeholder image"
+                alt="movie"
               />
             </figure>
           </td>

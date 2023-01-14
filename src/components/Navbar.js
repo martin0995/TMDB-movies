@@ -80,12 +80,12 @@ const Navbar = () => {
               >
                 <strong>Sign up</strong>
               </a>
-              <a
+              <button
                 onClick={handleFavoritos}
                 className="button is-secondary is-pulled-right is-dark is-small"
               >
                 <strong>Favoritos 🤍</strong>
-              </a>
+              </button>
             </div>
           )}
         </div>

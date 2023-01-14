@@ -26,7 +26,7 @@ const FavoritoItem = ({ favorito }) => {
                         ? `${favorito.imgUrl}`
                         : "https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg"
                     }
-                    alt="Placeholder image"
+                    alt="movie"
                   />
                 </figure>
               </td>
@@ -59,7 +59,7 @@ const FavoritoItem = ({ favorito }) => {
                         ? `${favorito.imgUrl}`
                         : "https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg"
                     }
-                    alt="Placeholder image"
+                    alt="movie"
                   />
                 </figure>
               </td>
